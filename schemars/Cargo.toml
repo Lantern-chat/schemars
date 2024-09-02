@@ -33,8 +33,8 @@ smallvec1 = { version = "1.0", default-features = false, optional = true, packag
 smol_str02 = { version = "0.2.1", default-features = false, optional = true, package = "smol_str" }
 url2 = { version = "2.0", default-features = false, optional = true, package = "url" }
 uuid1 = { version = "1.0", default-features = false, optional = true, package = "uuid" }
-triomphe = { version = "0.1.8", optional = true }
-thin-vec = { version = "0.2", optional = true }
+triomphe01 = { version = "0.1.8", optional = true, package = "triomphe" }
+thin-vec02 = { version = "0.2", optional = true, package = "thin-vec" }
 
 [dev-dependencies]
 pretty_assertions = "1.2.1"
