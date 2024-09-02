@@ -90,6 +90,9 @@ forward_impl!((<T: ?Sized> crate::JsonSchema for triomphe::Arc<T> where T: crate
 #[cfg(feature = "smallvec1")]
 forward_impl!((<A: smallvec1::Array> crate::JsonSchema for smallvec1::SmallVec<A> where A::Item: crate::JsonSchema) => alloc::vec::Vec<A::Item>);
 
+#[cfg(feature = "thin-vec")]
+forward_impl!((<T: crate::JsonSchema> crate::JsonSchema for thin_vec::ThinVec<T>) => alloc::vec::Vec<T>);
+
 #[cfg(feature = "smol_str02")]
 forward_impl!(smol_str02::SmolStr => alloc::string::String);
 
