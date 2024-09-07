@@ -96,6 +96,9 @@ forward_impl!((<T: crate::JsonSchema> crate::JsonSchema for thin_vec02::ThinVec<
 #[cfg(feature = "smol_str02")]
 forward_impl!(smol_str02::SmolStr => alloc::string::String);
 
+#[cfg(feature = "smol_str03")]
+forward_impl!(smol_str03::SmolStr => alloc::string::String);
+
 #[cfg(feature = "url2")]
 mod url2;
 

@@ -30,7 +30,8 @@ indexmap2 = { version = "2.0", default-features = false, optional = true, packag
 rust_decimal1 = { version = "1", default-features = false, optional = true, package = "rust_decimal" }
 semver1 = { version = "1.0.9", default-features = false, optional = true, package = "semver" }
 smallvec1 = { version = "1.0", default-features = false, optional = true, package = "smallvec" }
-smol_str02 = { version = "0.2.1", default-features = false, optional = true, package = "smol_str" }
+smol_str02 = { version = "0.2", default-features = false, optional = true, package = "smol_str" }
+smol_str03 = { version = "0.3", default-features = false, optional = true, package = "smol_str" }
 url2 = { version = "2.0", default-features = false, optional = true, package = "url" }
 uuid1 = { version = "1.0", default-features = false, optional = true, package = "uuid" }
 triomphe01 = { version = "0.1.8", optional = true, package = "triomphe" }
